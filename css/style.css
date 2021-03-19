@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold.woff");
+  font-style: normal;
+}
+
+body {
+  background-color: #eceff4;
+  font-family: "OpenSans-Regular", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 321px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+}
+
+.form-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.form-contacts *:nth-child(1n) {
+  margin-bottom: 10px;
+}
+
+.form-contacts *:last-child {
+  margin-bottom: 0px;
+}
+
+.contact-list-item {
+  position: relative;
+}
+
+.form-contacts button {
+  border-radius: 4px;
+  border: none;
+  background-color: #4d59a1;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 15px;
+  width: 97px;
+}
+
+.contacts-box {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 0;
+  box-shadow: 1.5px 2.598px 7px 0px rgb( 0, 0, 0 );
+  margin-bottom: 20px;
+}
+
+.box-item {
+  box-sizing: border-box;
+  height: auto;
+  border-bottom: #eeeeee 1px solid;
+}
+
+.box-item:last-child {
+  border-bottom: unset;
+}
+
+.contacts-box .box-item:nth-child(1n) {
+  padding: 25px;
+}
+
+.contacts-box:last-child {
+  margin-bottom: 0px;
+}
+
+.contacts-box-header p {
+  margin: 0;
+}
+
+.form-contacts input {
+  border: #eeeeee 1px solid;
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.form-contacts input.input-phone {
+  margin-bottom: 15px !important;
+}
+
+.contact-list {
+  padding: 0 !important;
+}
+
+.contact-list-item {
+  padding: 20px;
+  border-bottom: #eeeeee 1px solid;
+}
+
+.contact-list-item:last-child {
+  border-bottom: unset;
+}
+
+.contact-list-item *:nth-child(1n) {
+  margin: 0 0 0 0;
+}
+
+.phone-contact {
+  font-size: 12px;
+}
+
+span.delete-cont {
+  display: inline-block;
+  margin-left: 10px !important;
+  cursor: pointer;
+}

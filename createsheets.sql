@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `contactsheet`;
+
+CREATE TABLE `contactsheet` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(255) NOT NULL,
+  `phone` VARCHAR(15) NOT NULL,
+   PRIMARY KEY (`id`)
+);
